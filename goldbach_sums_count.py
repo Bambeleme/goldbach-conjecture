@@ -175,9 +175,9 @@ def GoldbachCon_Multi(x):
     plt.plot(s_g, S_g, "g-", linewidth=0.01, marker='o', markersize=0.1)
     plt.show()
 
-   
-GoldbachCon(1*10**5)
-GoldbachCon_Multi(1*10**5)
+#warning: numbers larger than 10k take a lot of calculation time
+GoldbachCon(1*10**4)
+GoldbachCon_Multi(1*10**4)
 
 
 
