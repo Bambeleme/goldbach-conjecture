@@ -32,26 +32,3 @@ const listprimes = (limit) => {
     return true;
 }
 console.log(listprimes(10**8));
-
-
-
-
-/*
-def isprime1opt(x):
-        ##print ("CODE 1SM: Prime Single Mesh Opt")
-        n = [0,0]
-        c = 0
-        for i in range(1,x):                
-                n.append(1)
-        for i in range(2,int(x**.5)+1,1):                               
-                if n[i]!=0:
-                        for j in range(i*i,x+1,i):
-                                n[j]=0
-        for i in range(1,x):
-                if n[i]!=0:
-                    c += 1
-                    p = i
-                    #print(i, "is prime")
-        print("Limit:",x,"\nLargest:",p,"\nPrimes:",c)
-        return n
-*/
