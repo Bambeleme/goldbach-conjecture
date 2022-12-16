@@ -16,7 +16,7 @@ const listprimes = (limit) => {
         n.push(0, 1);            
     }
     
-    for (let i = 1; i <= limit**(0.5)+1; i++) {
+    for (let i = 2; i <= limit**(0.5)+1; i++) {
         if (n[i] != 0) {
             for (let j = i * i; j < limit + 1; j+=i){
                 n[j] = 0
@@ -34,4 +34,4 @@ const listprimes = (limit) => {
     console.log("Es gibt " + c + " Primzahlen im Bereich bis "+ limit)
     return n;
 }
-console.log(listprimes(5));
+console.log(listprimes(2));
