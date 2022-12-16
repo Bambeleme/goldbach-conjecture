@@ -176,8 +176,9 @@ def GoldbachCon_Multi(x):
     plt.show()
 
 #warning: numbers larger than 10k take a lot of calculation time
-GoldbachCon(2*10**5)
-GoldbachCon_Multi(2*10**5)
+GoldbachCon(2*10**4)
+GoldbachCon_Multi(2*10**4)
 
+#isprime1opt(5*10**8)
 
 
