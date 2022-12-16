@@ -26,7 +26,6 @@ const listprimes = (limit) => {
         if (n[i]!=0){
             c += 1
             p = i
-            //console.log(p + " ist Primzahl " + c) 
         }
     }
     console.log("Es gibt " + c + " Primzahlen im Bereich bis "+ limit)
