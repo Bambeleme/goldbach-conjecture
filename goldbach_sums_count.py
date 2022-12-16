@@ -10,7 +10,6 @@ def isprime1opt(x):
                 if n[i]!=0:
                         for j in range(i*i,x+1,i):
                                 n[j]=0
-               #print(n)
         for i in range(1,x):
                 if n[i]!=0:
                     c += 1

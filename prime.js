@@ -9,6 +9,7 @@ console.log(isPrime(70));
 console.log(isPrime(23));
 
 const listprimes = (limit) => {
+    console.log("Berechnung der Primzahlen bis " + limit)
     n = [0, 0] 
     c = 0
     while (n.length <= limit) {
@@ -28,7 +29,6 @@ const listprimes = (limit) => {
             //console.log(p + " ist Primzahl " + c) 
         }
     }
-    
     console.log("Es gibt " + c + " Primzahlen im Bereich bis "+ limit)
     return true;
 }
