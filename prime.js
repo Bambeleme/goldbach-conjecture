@@ -34,4 +34,4 @@ const listprimes = (limit) => {
     console.log("Es gibt " + c + " Primzahlen im Bereich bis "+ limit)
     return p + " ist die letzte Primzahl";
 }
-console.log(listprimes(38));
+console.log(listprimes(11));
